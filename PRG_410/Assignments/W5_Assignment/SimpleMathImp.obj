@@ -1,0 +1,350 @@
+#include <iostream>
+#include <vector>
+#include <iterator>
+#include <algorithm>
+#include <numeric>
+#include "SimpleMath.h"
+
+using namespace std;
+
+int exit();//exit function to get back to main()
+
+//vectors to hold each user made list of selected items
+vector<double> clothing;
+vector<double> beauty;
+vector<double> grocery;
+vector<double> garden;
+vector<double> supplies;
+vector<double> tobacco;
+
+int select;
+
+int exit()
+{
+   return 1;//returns to main menu when user is ready
+}
+
+//**********Menu Section**********\\
+//The respective menu display four items for purchasing.
+//Selecting a number will add that item to the cart.
+//Each category get its own cart to calculate their respective tax values. 
+
+void SimpleMath::clothMenu()
+{
+   cin.clear();
+   cin.ignore(100,'\n');
+	cout<<"\n-----Clothing and Accessoriess-----" 
+       <<"\n1 T-Shirt ----- $" << cPrice1
+       <<"\n2 Jeans ------- $" << cPrice2
+       <<"\n3 Shoes ------- $" << cPrice3
+       <<"\n4 Hat --------- $" << cPrice4 
+       <<"\n0      Return to Main Menu " 
+       <<"\nChoose the number to the item you wish add to your cart (1 - 4), then press Enter: ";
+   cin>>select;
+   if(select != 0)
+      clothAdd(select);  
+}
+void SimpleMath::beautyMenu()
+{
+   cin.clear();
+   cin.ignore(100,'\n');
+	cout<<"\n-----Beauty Products-----" 
+       <<"\n1 Eye Shadow --- $" << bPrice1
+       <<"\n2 Eye Liner ---- $" << bPrice2
+       <<"\n3 Moistuirzer -- $" << bPrice3
+       <<"\n4 Lip Stick ---- $" << bPrice4 
+       <<"\n0      Return to Main Menu " 
+       <<"\nChoose the number to the item you wish add to your cart (1 - 4), then press Enter: ";
+   cin>>select;
+   if(select != 0)
+     beautyAdd(select);  
+}
+void SimpleMath::groceryMenu()
+{
+   cin.clear();
+   cin.ignore(100,'\n');
+	cout<<"\n-----Grocery Items-----" 
+       <<"\n1 Fruits -------- $" << gaPrice1
+       <<"\n2 Vegetables ---- $" << gaPrice2
+       <<"\n3 Milk ---------- $" << gaPrice3
+       <<"\n4 Bread --------- $" << gaPrice4 
+       <<"\n0      Return to Main Menu " 
+       <<"\nChoose the number to the item you wish add to your cart (1 - 4), then press Enter: ";
+   cin>>select;
+   if(select != 0)
+     groceryAdd(select);  
+}
+void SimpleMath::gardenMenu()
+{
+   cin.clear();
+   cin.ignore(100,'\n');
+	cout<<"\n-----Gardening-----" 
+       <<"\n1 Fertilizer ---- $" << grPrice1
+       <<"\n2 Gloves -------- $" << grPrice2
+       <<"\n3 Shovel -------- $" << grPrice3
+       <<"\n4 Seeds --------- $" << grPrice4 
+       <<"\n0      Return to Main Menu " 
+       <<"\nChoose the number to the item you wish add to your cart (1 - 4), then press Enter: ";
+   cin>>select;
+   if(select != 0)
+     gardenAdd(select); 
+}
+void SimpleMath::suppliesMenu()
+{
+   cin.clear();
+   cin.ignore(100,'\n');
+	cout<<"\n-----School Supplies-----" 
+       <<"\n1 Paper  -------- $" << sPrice1
+       <<"\n2 Ruler --------- $" << sPrice2
+       <<"\n3 Pencils ------- $" << sPrice3
+       <<"\n4 Binder -------- $" << sPrice4 
+       <<"\n0      Return to Main Menu " 
+       <<"\nChoose the number to the item you wish add to your cart (1 - 4), then press Enter: ";
+   cin>>select;
+   if(select != 0)
+     suppliesAdd(select);
+}
+void SimpleMath::tobaccoMenu()
+{
+   cin.clear();
+   cin.ignore(100,'\n');
+	cout<<"\n-----Tobacco Products-----" 
+       <<"\n1 Cigarettes ---- $" << tPrice1
+       <<"\n2 Cigars -------- $" << tPrice2
+       <<"\n3 Snuff --------- $" << tPrice3
+       <<"\n4 Pipe ---------- $" << tPrice4 
+       <<"\n0      Return to Main Menu " 
+       <<"\nChoose the number to the item you wish add to your cart (1 - 4), then press Enter: ";
+   cin>>select;
+   if(select != 0)
+     tobaccoAdd(select);
+}
+
+//**********Cart Addtion Section**********\\
+//The functions for adding the selected item to its respective carts. 
+
+void SimpleMath::clothAdd(int i)
+{
+      switch (select)
+      {
+         case 1: clothing.push_back(cPrice1);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 2: clothing.push_back(cPrice2);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 3: clothing.push_back(cPrice3);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 4: clothing.push_back(cPrice4);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 0: exit();
+                 break;
+         default: cout <<"\n********Enter valid number********";
+                 break;
+      }
+      clothMenu();
+}
+void SimpleMath::beautyAdd(int i)
+{
+   switch (select)
+      {
+         case 1: beauty.push_back(bPrice1);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 2: beauty.push_back(bPrice2);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 3: beauty.push_back(bPrice3);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 4: beauty.push_back(bPrice4);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 0: exit();
+                 break;
+         default: cout <<"\n********Enter valid number********";
+                 break;
+      }
+      beautyMenu();
+}
+void SimpleMath::groceryAdd(int i)
+{
+   switch (select)
+      {
+         case 1: grocery.push_back(grPrice1);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 2: grocery.push_back(grPrice2);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 3: grocery.push_back(grPrice3);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 4: grocery.push_back(grPrice4);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 0: exit();
+                 break;
+         default: cout <<"\n********Enter valid number********";
+                 break;
+      }
+      groceryMenu();
+}
+void SimpleMath::gardenAdd(int i)
+{
+   switch (select)
+      {
+         case 1: garden.push_back(gaPrice1);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 2: garden.push_back(gaPrice2);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 3: garden.push_back(gaPrice3);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 4: garden.push_back(gaPrice4);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 0: exit();
+                 break;
+         default: cout <<"\n********Enter valid number********";
+                 break;
+      }
+      gardenMenu();
+}
+void SimpleMath::suppliesAdd(int i)
+{
+   switch (select)
+      {
+         case 1: supplies.push_back(sPrice1);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 2: supplies.push_back(sPrice2);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 3: supplies.push_back(sPrice3);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 4: supplies.push_back(sPrice4);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 0: exit();
+                 break;
+         default: cout <<"\n********Enter valid number********";
+                 break;
+      }
+      suppliesMenu();
+}
+void SimpleMath::tobaccoAdd(int i)
+{
+   switch (select)
+      {
+         case 1: tobacco.push_back(tPrice1);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 2: tobacco.push_back(tPrice2);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 3: tobacco.push_back(tPrice3);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 4: tobacco.push_back(tPrice4);
+                 cout << "\nItem Number " << select << " has been added to your cart.";
+                 break;
+         case 0: exit();
+                 break;
+         default: cout <<"\n********Enter valid number********";
+                 break;
+      }
+      tobaccoMenu();
+}
+
+//**********Calculation Section**********\\
+//Each cart sums its items and calculates their respective taxes.
+//Their collective sums are later added together to create the grand total, which is displayed to the user.
+
+void SimpleMath::calcCloth()
+{
+   for_each (clothing.begin(), clothing.end(), [&] (int c) //Runs through the user created list and sums them up
+   {
+      total1 += c;
+   });
+      total1 = total1 + (total1 * .06); //The 6% clothing tax is added here
+}
+void SimpleMath::calcBeauty()
+{ 
+   for_each (beauty.begin(), beauty.end(), [&] (int c) 
+   {
+      total2 += c;
+   });
+      total2 = total2 + (total2 * .07);//The 7% beauty tax is added here
+}
+void SimpleMath::calcGrocery()
+{
+   for_each (grocery.begin(), grocery.end(), [&] (int c) 
+   {
+      total3 += c;
+   });
+      total3 = total3 + (total3 * .03);//The 3% grocery tax is added here
+}
+void SimpleMath::calcGarden()
+{
+   for_each (garden.begin(), garden.end(), [&] (int c) 
+   {
+      total4 += c;
+   });
+      total4 = total4 + (total4 * .06);//The 6% grocery tax is added here
+}
+void SimpleMath::calcSupplies()
+{
+   for_each (supplies.begin(), supplies.end(), [&] (int c) 
+   {
+      total5 += c;
+   });
+      total5 = total5 + (total5 * .03);//The 3% supplies tax is added here
+}
+void SimpleMath::calcTobacco()
+{
+   for_each (tobacco.begin(), tobacco.end(), [&] (int c) 
+   {
+      total6 += c;
+   });
+      total6 = total6 + (total6 * .1);//The 10% tobacco tax is added here
+}
+
+void SimpleMath::calcTotal()
+{
+   finalTotal = total1 + total2 + total3 + total4 + total5 + total6;
+}
+
+void SimpleMath::displayTotals()
+{
+   //Each of the different categories are calculated with their respective prices and taxes
+   calcCloth();
+   calcBeauty();
+   calcGrocery();
+   calcGarden();
+   calcSupplies();
+   calcTobacco();
+   calcTotal();
+   
+   //Any non-accessed categories at the time of cartting out, will not be displayed
+   if(total1>0)
+      cout <<"\nClothing Total: $" << total1;
+   if(total2>0)
+      cout <<"\nBeauty Total: $" << total2;
+   if(total3>0)
+      cout <<"\nGrocery Total: $" << total3;
+   if(total4>0)
+      cout <<"\nGarden Total: $" << total4;
+   if(total5>0)
+      cout <<"\nSupplies Total: $" << total5;
+   if(total6>0)
+      cout <<"\nTobacco Total: $" << total6;
+      
+   //Grand Total displayed always
+      cout <<"\n*****Grand Total: $" << finalTotal;
+}
