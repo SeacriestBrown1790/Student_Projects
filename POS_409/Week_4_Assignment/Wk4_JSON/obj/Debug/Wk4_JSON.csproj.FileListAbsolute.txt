@@ -1,0 +1,26 @@
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\bin\Debug\Wk4_JSON.exe.config
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\bin\Debug\Wk4_JSON.exe
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\bin\Debug\Wk4_JSON.pdb
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.csprojAssemblyReference.cache
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.Form1.resources
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.Properties.Resources.resources
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.csproj.GenerateResource.cache
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.csproj.CoreCompileInputs.cache
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.csproj.CopyComplete
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.exe
+C:\Users\dmont\source\repos\Wk4_JSON\Wk4_JSON\obj\Debug\Wk4_JSON.pdb
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\bin\Debug\Wk4_JSON.exe.config
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\bin\Debug\Wk4_JSON.exe
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\bin\Debug\Wk4_JSON.pdb
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\bin\Debug\Newtonsoft.Json.dll
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\bin\Debug\Newtonsoft.Json.xml
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.csprojAssemblyReference.cache
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.Form1.resources
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.Properties.Resources.resources
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.csproj.GenerateResource.cache
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.csproj.CoreCompileInputs.cache
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.csproj.CopyComplete
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.exe
+D:\University of Phoenix\POS_409\W4_Building Universal Windows Platform Applications with C# Part 1\Assignments\SBrown_Wk4\Wk4_JSON\obj\Debug\Wk4_JSON.pdb

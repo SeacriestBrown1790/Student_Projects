@@ -1,0 +1,23 @@
+Your software development company wants to continue developing and enhancing a software for internal use. 
+The Software Development Company is now requesting that you change your data structure from an array to a .NET List.
+
+For this week's assignment, the application is required to read from a file (data.txt) containing employees' data. Your tasks include:
+- Use the data file from the previous week (data.txt)
+- The C# data structure class/methods must demonstrate the use of object-oriented collections
+- Implement an employee record objects List Collection
+- Meet specifications by displaying on a Windows Form Application
+
+Using Visual Studio® and C# programming concepts, and using the previous data.txt file as your source file, write a program to meet the specifications of the company's request. The program should have the following characteristics:
+- Compile and execute without errors
+- Meet specifications by demonstrating file handling, List Collection data structure manipulation, 
+  and Windows Form output mastery by accomplishing the following:
+- Read employees' data from a file
+- Input the data into a List Collection data structure
+- Display the employees' data on the console
+- Logic flow is clear, concise, and effective
+- User inputs and outputs should be clear on screen
+- Validation for input types and data format
+- Appropriate indentation to logically illustrate program structure
+- Identifiers logically describe use
+- Naming conventions are consistent
+- Comments and headers to explain processing that is not obvious

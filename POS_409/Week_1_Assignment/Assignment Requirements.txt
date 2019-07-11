@@ -1,0 +1,29 @@
+Your software development company wants to continue developing and enhance a software for internal use. 
+The Software Development Company is now requesting that you add GUI/Windows form elements to the C# application.
+
+For this week's assignment, the application is required to read from a file (data.txt) containing data about the employees.
+Your tasks include:
+- Create a C# data structure based on the software developer data that will be read from file (data.txt).
+- The C# data structure class/methods must demonstrate the use of inheritance.
+- Implement an array of employee record objects containing the data pulled from the file.
+- Meet specifications by displaying a welcome message along with the following information 
+  on three employees on a Windows Form Application:
+- Employee Record(super class):
+- name
+- address
+- age
+- gross monthly pay
+- department id
+- Developer Type (sub class):
+- Scripts (i.e., Python, Perl, PowerShell)
+- Object-Oriented (i.e., C#, C++, Java)
+- Employee Tax Type (sub class):
+- W2 (Fed, FICA, Medicare)
+- 1099 (no taxes)
+- Annual taxes determined by employee tax type
+- Annual net pay determined by salary and tax type
+
+Create a Comma Separated Values (CSV) text file and named "data.txt." 
+The data.txt file shall include information on at least five developers put into rows, 
+including software developer name, addresses, age, gross monthly pay, department ID, developer type, and employee type, 
+all separated by commas (CSV).

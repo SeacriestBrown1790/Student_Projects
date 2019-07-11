@@ -1,0 +1,22 @@
+Your software development company wants to continue developing and enhancing a software for internal use.
+
+For this week's assignment, the application is required to read from a file (data.txt) containing employee data. Your tasks include:
+- Use the data file from Week One (data.txt)
+- Implement LINQ functionalities to search, display, and modify employees' records
+- Meet specifications by displaying on a Windows Form Application
+
+Using Visual Studio and C# programming concepts and using your Week one data.txt file as your source file, 
+write a program to meet the specifications of the company's request. 
+The program should have the following characteristics:
+- Compile and execute without errors
+- Meet specifications by demonstrating LINQ queries, data structure manipulation, and Windows Form output mastery by accomplishing the following:
+- Query employees' data
+- Input the data into a data structure
+- Display the employees' data on the console
+- Logic flow is clear, concise, and effective
+- User inputs and outputs should be clear on screen
+- Validation for input types and data format
+- Appropriate indentation to logically illustrate program structure
+- Identifiers logically describe use
+- Naming conventions are consistent
+- Comments and headers to explain processing that is not obvious

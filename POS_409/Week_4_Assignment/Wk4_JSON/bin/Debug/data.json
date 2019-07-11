@@ -1,0 +1,42 @@
+[
+  {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Address": "123 Main Street",
+    "Age": 48,
+    "GrossMoPay": 6250,
+    "DeptID": "S3033",
+    "DevType": "Scripts",
+    "TaxType": "W2"
+  },
+  {
+    "FirstName": "Mary",
+    "LastName": "Lamb",
+    "Address": "345 Garden Lane",
+    "Age": 31,
+    "GrossMoPay": 4167,
+    "DeptID": "P4177",
+    "DevType": "OOP",
+    "TaxType": 1099
+  },
+  {
+    "FirstName": "Angela",
+    "LastName": "Webb",
+    "Address": "875 Fifth Ave",
+    "Age": 21,
+    "GrossMoPay": 5542,
+    "DeptID": "S3033",
+    "DevType": "Scripts",
+    "TaxType": 1099
+  },
+  {
+    "FirstName": "Michael",
+    "LastName": "Smith",
+    "Address": "3776 Elliott Drive",
+    "Age": 52,
+    "GrossMoPay": 8133,
+    "DeptID": "P4177",
+    "DevType": "OOP",
+    "TaxType": "W2"
+  }
+]

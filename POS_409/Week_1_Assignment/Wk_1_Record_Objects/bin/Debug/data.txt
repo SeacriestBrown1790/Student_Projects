@@ -1,0 +1,5 @@
+FirstName, LastName, Address, Age, GrossMoPay, DeptID, DevType, TaxType
+John, Doe, 123 Main Street, 48, 6250, S3033, Scripts, W2
+Mary, Lamb, 345 Garden Lane, 31, 4167, P4177, OOP, 1099
+Angela, Webb, 875 Fifth Ave, 21, 5542, S3033, Scripts, 1099 
+Michael, Smith, 3776 Elliott Drive, 52, 8133, P4177, OOP, W2

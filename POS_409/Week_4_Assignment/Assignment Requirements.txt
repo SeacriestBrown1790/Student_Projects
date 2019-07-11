@@ -1,0 +1,24 @@
+Your software development company wants to continue developing and enhancing a software for internal use.
+
+For this week's assignment, it is required to read from a JSON application file (data.json) containing employee information. 
+You will not use LINQ for this task.
+
+Your tasks include:
+- Convert the previously created data.txt file into a JSON file
+- Implement JSON functionalities to search, display, and modify the employees' records in the JSON file
+- Meet specifications by displaying on Windows Form Application.
+
+Using Visual Studio® and C# programming concepts and using your data.json) file as your source file, 
+write a program to meet the specifications of the company's request. The program should have the following characteristics:
+- Compile and execute without errors
+- Meet specifications by demonstrating file handling, JSON data structure manipulation, and Windows Form output mastery by accomplishing the following:
+- Read employees' data from a file
+- Input the data into a JSON data structure
+- Display the employees' data on the console
+- Logic flow is clear, concise, and effective
+- User inputs and outputs should be clear on screen
+- Validation for input types and data format
+- Appropriate indentation to logically illustrate program structure
+- Identifiers logically describe use
+- Naming conventions are consistent
+- Comments and headers to explain processing that is not obvious
