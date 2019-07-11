@@ -1,0 +1,26 @@
+The Software Development Company now requests you add final elements to the C# program.
+For this week's assignment, build on the Week Four Individual Assignment, "Error Handling," 
+by reading the software developers' C# data structure records data from a file (data.txt), 
+implement an array data structure containing the data, 
+and display on the console all the software developers' data, monthly pay, monthly taxes, annual gross pay, annual taxes, and net pay. 
+
+Program Input File:
+Create a Comma Separated Values (CSV) text file and named "data.txt." 
+The data.txt file shall include information on at least five developers 
+put into rows and including software developer name, addresses, and monthly gross pay separated by a comma.
+
+Using Visual Studio® and C# programming concepts, write a program to meet the specifications of the company's request.
+The program should have the following characteristics:
+	- Compile and Execute without errors
+	- Meets specifications by demonstrating file handling, array data structure manipulation, 
+          and console output mastery by accomplishing the following:
+		~ Read software developers' data from a file
+		~ Input the data into an array data structure
+		~ Display the software developers' data on the console
+	- Logic flow is clear, concise, and effective
+	- User inputs and outputs should be clear on screen
+	- Validation for input types and data format
+	- Appropriate indentation to logically illustrate program structure
+	- Identifiers logically describe use
+	- Naming conventions are consistent
+	- Comments and headers to explain processing that is not obvious

@@ -1,0 +1,28 @@
+The Software Development Company now requests you enhance the C# program to display 
+on the console additional information on all the software developers' information:
+ 
+For this week's assignment, build on the Week Two Individual Assignment, "Adding Variables," 
+by asking the user to enter the names, addresses, and monthly gross pay of three software developers. 
+The program should display on the console the software developer name, address, monthly gross pay, and taxes paid for that month. 
+Taxes are set at 7% of the monthly gross pay. 
+The program should also display the annual gross pay and annual taxes of all three software developers. 
+
+Using Visual Studio® and C# programming concepts, write a program to meet the specifications of the company's request. 
+The program should have the following characteristics:
+	- Compile and Execute without errors
+	- Meets specifications by displaying on the console a welcome message along with allowing 
+          the user to enter the following information on all three software developers:
+		~ Software developer name
+		~ Address
+		~ Gross monthly pay
+		~ Monthly Taxes
+		~ Annual gross pay
+		~ Annual taxes
+	- Data entered is displayed back to the user and taxes are properly calculated.
+	- Logic flow is clear, concise, and effective
+	- User inputs and outputs should be clear on screen
+	- Validation for input types and data format
+	- Appropriate indentation to logically illustrate program structure
+	- Identifiers logically describe use
+	- Naming conventions are consistent
+Comments and headers to explain processing that is not obvious

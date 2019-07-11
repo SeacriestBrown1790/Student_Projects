@@ -1,0 +1,23 @@
+The Software Development Company now requests you build a C# program to collect information on software developers.
+
+For this week's assignment, build on the Week One Individual Assignment, "Console Display Message," 
+by enhancing the program to allow the user to enter one software developer's name, addresses, and monthly gross pay. 
+The program should display on the console the software developer's name, address, monthly gross pay, and taxes paid for that month. 
+Taxes are set at 7% of the monthly gross pay.
+
+Using Visual Studio® and C# programming concepts, write a program to meet the specifications of the company's request. 
+The program should have the following characteristics:
+	- Compile and Execute without errors
+	- Meets specifications by displaying on the console a welcome message along with allowing user input for the following information:
+		~ Software developer name
+		~ Address
+		~ Gross monthly pay
+		~ Taxes
+	- Display the data the user input with the properly calculated taxes.
+	- Logic flow is clear, concise, and effective
+	- User inputs and outputs should be clear on screen
+	- Validation for input types and data format
+	- Appropriate indentation to logically illustrate program structure
+	- Identifiers logically describe use
+	- Naming conventions are consistent
+Comments and headers to explain processing that is not obvious

@@ -1,0 +1,14 @@
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\bin\Debug\Wk_2_AddingVariables.exe.config
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\bin\Debug\Wk_2_AddingVariables.exe
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\bin\Debug\Wk_2_AddingVariables.pdb
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.csprojAssemblyReference.cache
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.csproj.CoreCompileInputs.cache
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.exe
+C:\Users\dmont\source\repos\Wk_2_AddingVariables\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.pdb
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\bin\Debug\Wk_2_AddingVariables.exe.config
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\bin\Debug\Wk_2_AddingVariables.exe
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\bin\Debug\Wk_2_AddingVariables.pdb
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.csprojAssemblyReference.cache
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.csproj.CoreCompileInputs.cache
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.exe
+C:\Users\dmont\OneDrive\Desktop\Uni_to_Git\POS_408\Week_2_Assignment\SBrown_Wk_2\Wk_2_AddingVariables\obj\Debug\Wk_2_AddingVariables.pdb

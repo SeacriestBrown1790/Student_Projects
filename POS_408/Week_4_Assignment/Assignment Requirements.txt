@@ -1,0 +1,32 @@
+The Software Development Company requests you add user error exception handling capabilities to the C# program.
+
+For this week's assignment, build on the Week Three Individual Assignment, "Branching in C#," by storing the data input by the user in a class.  
+You will also use this stored data when you display the data. 
+The C# class must include the type of employee as either W2 or 1099 using the following requirements: 
+	- The 1099 software development employees' records do not include or calculate any taxes
+	- The program properly handles and informs the user about errors on user input
+	- The program demonstrates in the code the use of references types
+	- The program displays on the console all the software developers' data, monthly pay, monthly taxes, annual gross pay, annual taxes, and net pay
+	
+Using Visual Studio® and C# programming concepts, write a program to meet the specifications of the company's request. 
+The program should have the following characteristics:
+	- Compile and Execute without errors
+	- Meets specifications by displaying on the console a welcome message along with allowing 
+          the user to enter the following information on three software developers:
+		~ Software developer name
+		~ Address
+		~ Gross monthly pay
+		~ Annual gross pay
+		~ Employee type: W2/1099
+		~ Monthly and annual taxes determined by employee type
+	- Data is stored in a class
+	- Data that is input is displayed properly from the class.
+	- Logic flow is clear, concise, and effective; 
+          demonstrates exception handling routines and reference types 
+          by catching and displaying user data entry errors and implementing reference types as part of the code
+	- User inputs and outputs should be clear on screen
+	- Validation for input types and data format
+	- Appropriate indentation to logically illustrate program structure
+	- Identifiers logically describe use
+	- Naming conventions are consistent
+Comments and headers to explain processing that is not obvious
