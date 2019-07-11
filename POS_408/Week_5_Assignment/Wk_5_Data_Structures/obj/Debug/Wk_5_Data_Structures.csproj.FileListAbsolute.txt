@@ -1,7 +1,0 @@
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\obj\Debug\Wk_5_Data_Structures.csprojAssemblyReference.cache
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\obj\Debug\Wk_5_Data_Structures.csproj.CoreCompileInputs.cache
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\bin\Debug\Wk_5_Data_Structures.exe.config
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\bin\Debug\Wk_5_Data_Structures.exe
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\bin\Debug\Wk_5_Data_Structures.pdb
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\obj\Debug\Wk_5_Data_Structures.exe
-C:\Users\dmont\source\repos\Wk_5_Data_Structures\Wk_5_Data_Structures\obj\Debug\Wk_5_Data_Structures.pdb
