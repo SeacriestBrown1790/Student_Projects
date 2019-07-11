@@ -1,4 +1,4 @@
-The Software Development Company now requests you add final elements to the C# program.
+The Software Development Company now requests you add final elements to the C# program
 For this week's assignment, build on the Week Four Individual Assignment, "Error Handling," 
 by reading the software developers' C# data structure records data from a file (data.txt), 
 implement an array data structure containing the data, 
